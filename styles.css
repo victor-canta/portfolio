@@ -55,6 +55,7 @@ li.logo{
 
 #h_proj:hover,#h_exp:hover{
     cursor:pointer;
+    color:grey;
 }
 
 #title{
