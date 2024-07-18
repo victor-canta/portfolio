@@ -2,6 +2,12 @@
     font-family: 'Roboto Slab', serif;
 }
 
+[img]{
+    max-width: 100%;
+    height: auto;
+    
+}
+
 ::selection {
     background: greenyellow; 
 }
@@ -191,6 +197,14 @@ li.logo{
     margin-right: 10em;
     /* height:100em; */
     border-radius: 1em;
+}
+
+@media (max-width: 600px) {
+    #folder {
+        margin-left: 1em;
+        margin-right: 1em;
+        border-radius: 0.5em;
+    }
 }
  /* end of tab and project styling */
 
