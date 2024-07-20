@@ -339,6 +339,20 @@ li.logo{
 
 #spotlight{
     margin-left:2em;
+    width:100%;
+    max-width: 50vw;
+    max-height:50vw;
+    height:auto;
+    width:auto;
+}
+
+#footer >img{
+    margin-left:2em;
+    width:100%;
+    max-width: 50vw;
+    max-height:60vw;
+    height:auto;
+    width:auto;
 }
 
 /* mobile adjustments */
@@ -347,6 +361,7 @@ li.logo{
     #title, #first, #intro, #skills, #tabs, #folder {
         margin-left: 1em;
         margin-right: 1em;
+        font-size:1em;
     }
     #college-logos, #intro {
         margin-top: 1em;
@@ -355,11 +370,14 @@ li.logo{
     #college-logos {
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
+        /* justify-content: space-around; */
     }
-    .c-logo, .i-logo {
+    .c-logo {
         margin: 0.5em;
         width: 45%;
+    }
+    .i-logo{
+        margin:0.5em;
     }
     #supercontainer {
         flex-direction: column;
@@ -376,13 +394,14 @@ li.logo{
         height: 7em;
     }
     #tabs {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
     .tab {
-        width: 100%;
+        width: 30%;
         text-align: center;
         margin: 0.5em 0;
+        font-size: 1.5em;
     }
     #footer {
         flex-direction: column;
@@ -392,4 +411,5 @@ li.logo{
     #footer > img, #footer > div {
         margin: 1em 0;
     }
+
 }
