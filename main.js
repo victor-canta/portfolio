@@ -145,8 +145,8 @@ function insertExperience(){
     const spotlight = document.createElement("img");
     spotlight.id="spotlight";
     spotlight.src="spotlight.jpeg";
-    spotlight.style.height="30em";
-    spotlight.style.width="30em";
+    // spotlight.style.height="30em";
+    // spotlight.style.width="30em";
     spotlight.style.borderRadius="1em";
     largeContainer.appendChild(spotlight);
     divSound.appendChild(largeContainer);
@@ -201,6 +201,3 @@ function insertExperience(){
 };
 
 tab2.addEventListener("click", insertExperience);
-
-
-
