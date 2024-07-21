@@ -91,7 +91,7 @@ function insertExperience(){
     subtitle.style.marginRight="2em";
     
     let role = document.createElement("p");
-    role.textContent="COOP Careers - Data Analytics Apprentice";
+    role.textContent="COOP Careers: Data Analytics Apprentice";
     role.classList="role";
     let date = document.createElement("p");
     date.textContent="August 2023 - December 2023";
@@ -138,7 +138,7 @@ function insertExperience(){
     largeContainer.id="largeContainer";
 
     const textDiv2 = document.createElement("div");
-    textDiv2.style.fontSize="2em"
+    // textDiv2.style.fontSize="2em"
     textDiv2.className = "text";
     largeContainer.appendChild(textDiv2);
 
@@ -201,3 +201,6 @@ function insertExperience(){
 };
 
 tab2.addEventListener("click", insertExperience);
+
+
+
